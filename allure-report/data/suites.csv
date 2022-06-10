@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Jun 10 17:07:08 MSK 2022","Fri Jun 10 17:07:42 MSK 2022","34105","","tests.QuickStartTests","","tests.QuickStartTests","createProjectTest","createProjectTest()",""
+"passed","Fri Jun 10 17:07:08 MSK 2022","Fri Jun 10 17:07:08 MSK 2022","32","","tests.QuickStartTests","","tests.QuickStartTests","authorizationWWithUserNamePass","authorizationWWithUserNamePass()",""
+"passed","Fri Jun 10 17:07:42 MSK 2022","Fri Jun 10 17:09:29 MSK 2022","106900","","tests.QuickStartTests","","tests.QuickStartTests","runBuildFromBuildConfPage","runBuildFromBuildConfPage()",""
