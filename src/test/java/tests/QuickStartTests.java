@@ -13,6 +13,7 @@ import testData.Users;
 
 import static com.codeborne.selenide.Selenide.webdriver;
 import static com.codeborne.selenide.WebDriverConditions.url;
+import static io.qameta.allure.Allure.step;
 
 public class QuickStartTests extends MainTestConfiguration {
     final String SOURCE_PROJECT_NAME = "BuildActionsProject";
@@ -35,9 +36,12 @@ public class QuickStartTests extends MainTestConfiguration {
     }
 
     @Test
-    void authorizationWWithUserNamePass() {
+    void authorizationWithUserNamePass() {
 
-        webdriver().shouldHave(url(Configuration.baseUrl + "/favorite/projects"));
+        String currentLocation = Configuration.baseUrl + "/favorite/projects";
+        step("Check for current location is " + currentLocation, () -> {
+            webdriver().shouldHave(url(currentLocation));
+        });
     }
 
     @Test
