@@ -8,8 +8,6 @@
 [<img alt="Github" height="50" src="https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom/main/images/logo/GitHub.svg" width="50"/>](https://github.com/) 
 [<img alt="JUnit 5" height="50" src="https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom/main/images/logo/Junit5.svg" width="50"/>](https://junit.org/junit5/) 
 
-# Getting started
-
 ## Run tests locally
 ```bash
 $ gradle clean test
