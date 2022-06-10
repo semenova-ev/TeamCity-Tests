@@ -1,4 +1,4 @@
-## Technologies used:
+## Technologies used
 
 [<img alt="Java" height="50" src="https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom/main/images/logo/Java.svg" width="50"/>](https://www.java.com/)
 [<img alt="IDEA" height="50" src="https://raw.githubusercontent.com/SvetlanaVaskevich/qa_guru_diplom/main/images/logo/Idea.svg" width="50"/>](https://www.jetbrains.com/idea/)
