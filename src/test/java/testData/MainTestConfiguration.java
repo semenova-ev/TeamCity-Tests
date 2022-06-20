@@ -10,8 +10,8 @@ public class MainTestConfiguration {
     private static String userToken;
 
     static public void configure() {
-        Configuration.baseUrl = "https://semenova.teamcity.com";
-        //Configuration.baseUrl = "http://51.250.97.59:8111/";
+        //Configuration.baseUrl = "https://semenova.teamcity.com";
+        Configuration.baseUrl = "http://51.250.97.59:8222";
         Configuration.browserSize  = "1920x1080";
 
         userName = Users.mainUsername;
